@@ -33,12 +33,12 @@ export default {
 
     firebase: {
         config: {
-            apiKey: process.env.FIRE_API_KEY,
-            authDomain: process.env.FIRE_AUTH_DOMAIN,
-            projectId: process.env.FIRE_PROJECT_ID,
-            storageBucket: process.env.FIRE_STORAGE_BUCKET,
-            messagingSenderId: process.env.FIRE_MESSAGING_SENDER_ID,
-            appId: process.env.FIRE_APP_ID,
+            apiKey: 'AIzaSyAy1tnZ9Yse6ifdsAfG_nQ1c68I8uKOrPg',
+            authDomain: 'test-e-commerce-8918a.firebaseapp.com',
+            projectId: 'test-e-commerce-8918a',
+            storageBucket: 'test-e-commerce-8918a.appspot.com',
+            messagingSenderId: '22567866489',
+            appId: '1:22567866489:web:1acc177082a2b493a8c4a8',
             // measurementId: '<measurementId>'
         },
         services: {

@@ -28,4 +28,8 @@ export default {
 * {
     text-decoration: none !important;
 }
+
+.tr-3s{
+    transition: all .3s;
+}
 </style>

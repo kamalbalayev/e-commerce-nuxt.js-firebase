@@ -2,6 +2,8 @@
     <nav class="d-flex">
 
         <v-btn text rounded :to="item.path"
+               :fab="$vuetify.breakpoint.smAndDown"
+               :small="$vuetify.breakpoint.smAndDown"
                active-class="primary" class="mr-2"
                v-for="(item, i) in navMenu" :key="`item-${i}`">
 

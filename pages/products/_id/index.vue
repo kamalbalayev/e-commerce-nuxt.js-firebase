@@ -1,12 +1,13 @@
 <template>
     <v-main>
+
         <v-container class="py-4 py-md-10" v-if="product">
 
             <v-card elevation="16" rounded="lg" class="pa-3 pa-md-6">
                 <v-row class="my-0">
 
                     <v-col cols="12" sm="6" class="py-0">
-                        <v-card outlined class="pa-3">
+                        <v-card outlined class="pa-3" color="white">
                             <v-img :src="product.image" :aspect-ratio="1" contain/>
                         </v-card>
                     </v-col>

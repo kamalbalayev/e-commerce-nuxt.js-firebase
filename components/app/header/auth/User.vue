@@ -6,8 +6,7 @@
                :fab="$vuetify.breakpoint.xsOnly"
                :small="$vuetify.breakpoint.xsOnly"
                :depressed="$vuetify.breakpoint.smAndUp"
-               rounded
-               color="primary">
+               rounded color="primary" class="mr-md-2">
 
             <v-icon v-text="'mdi-account'" :left="$vuetify.breakpoint.smAndUp"/>
 
@@ -15,7 +14,7 @@
 
         </v-btn>
 
-        <v-btn icon fab small color="primary" @click="logOut">
+        <v-btn icon fab small color="primary" class="mr-md-2" @click="logOut">
             <v-icon v-text="'mdi-logout'"/>
         </v-btn>
 
